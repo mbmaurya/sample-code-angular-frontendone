@@ -1,1 +1,2 @@
-/* You can add global styles to this file, and also import other style files */
+/* Resets and fixes various default css applied by the browser */
+@import url('./normalize.css');
