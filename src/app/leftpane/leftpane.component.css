@@ -1,0 +1,55 @@
+.leftpaneContainer {
+    padding: 4.5rem 1.5rem 1.5rem 4.1875rem; /* 67px, 24px */
+    background-color: #FDFDFE;
+}
+
+.leftpaneContainer .logo span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.leftpaneContainer .logo span:last-of-type {
+    padding-left: 1.6875rem; /* 27px*/
+    font-size: 1.6875rem;
+    line-height: 1.6875rem;
+    font-weight: 600; /* semibold */
+    color: #111026;
+}
+
+.leftpaneContainer .links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 7.75rem 0rem; /* 124px */
+}
+
+.leftpaneContainer .links ul li {
+    display: block;
+    margin: 0rem 0rem 3.375rem 0rem; /* 54px */
+}
+
+.leftpaneContainer .links ul li span {
+    vertical-align: middle;
+}
+
+.leftpaneContainer .links ul li span svg {
+    fill: #A2A2C2;
+}
+
+.leftpaneContainer .links ul li span a {
+    padding-left: 2.625rem; /* 42px */
+    font-size: 1.0625rem; /* 17px */
+    line-height: 1.0625rem;
+    font-weight: 500; /* semibold */
+    color: #A2A2C2;
+    text-decoration: none;
+}
+
+.leftpaneContainer .links ul li:hover span, 
+.leftpaneContainer .links ul li:hover span a {
+    cursor: pointer;
+    color: #111026
+}
+
+.leftpaneContainer .links ul li:hover span svg {
+    fill: #5E81F4;
+}

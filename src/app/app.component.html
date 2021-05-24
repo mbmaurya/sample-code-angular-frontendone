@@ -1,1 +1,21 @@
-<h1>{{ title }}</h1>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3">
+            <app-leftpane></app-leftpane>
+        </div>
+
+        <div class="col-lg-6">
+            <app-center></app-center>
+        </div>
+
+        <div class="col-lg-3">
+            <app-rightpane></app-rightpane>
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+
+
+
