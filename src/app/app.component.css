@@ -1,3 +1,16 @@
 .container-fluid {
     padding: 0;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container .leftpane, .flex-container .rightpane {
+    width: 22.5%;
+}
+
+.flex-container .centerpane {
+    width: 55%;
+    background-color: #F5F5FB;
+}
