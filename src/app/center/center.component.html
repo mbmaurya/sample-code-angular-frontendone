@@ -22,7 +22,7 @@
 
     <ul [ngSwitch]="tabValueFromLeftPane">
         <li *ngSwitchCase="'dashboard'">
-            <h2>This is the dashboard</h2>
+            <app-dashboard></app-dashboard>
         </li>
         <li *ngSwitchCase="'classes'">
             <h2>This is the class</h2>
@@ -40,7 +40,7 @@
             <h2>This is the settings</h2>
         </li>
         <li *ngSwitchDefault>
-            <h2>This is the dashboard</h2>
+            <app-dashboard></app-dashboard>
     </li>
     </ul>
 </section>

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LeftpaneComponent } from './leftpane/leftpane.component';
 import { RightpaneComponent } from './rightpane/rightpane.component';
 import { CenterComponent } from './center/center.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes = [
   {
@@ -18,7 +19,8 @@ const routes = [
     AppComponent,
     LeftpaneComponent,
     RightpaneComponent,
-    CenterComponent
+    CenterComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
