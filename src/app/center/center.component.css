@@ -1,0 +1,30 @@
+.center-pane-container {
+    padding: 4.5rem 1.5rem 1.5rem 1.5rem; /* 72px 24px 24px 24px */
+}
+
+.center-pane-container .header {
+    text-align: right;
+}
+
+.center-pane-container .header .date, .center-pane-container .header .search {
+    display: inline-block;
+}
+
+.center-pane-container .header .date {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    font-weight: 500; /* regular */
+}
+
+.center-pane-container .header .search span {
+
+    cursor: pointer;
+    display: flex;
+    width: 55px;
+    height: 55px;
+    background-color: #E5E9FA;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-left: 30px;
+}
