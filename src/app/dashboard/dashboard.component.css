@@ -1,0 +1,24 @@
+.greeting {
+    background-color: #F7E5E9;
+    border-radius: 1rem; /* 16px */
+    padding: 1.5rem; /* 24px */
+    margin-top: 3.375rem; /* 54px */
+}
+
+.greeting h2 {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+    font-weight: 700; /* bold */
+    color: #FF808B;
+}
+
+.greeting p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.5rem; /* 24px */
+    color: #000000;
+    font-weight: 400; /* regular */
+}
+
+.greeting img {
+    margin-top: -75px;
+}
