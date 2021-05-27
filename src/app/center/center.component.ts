@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-center',
@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CenterComponent implements OnInit {
 
-  constructor() { }
+  @Input() tabValueFromLeftPane: string = "";
+
+  todaysDate: Date = new Date();
+
+
+  constructor() {
+    
+   }
 
   ngOnInit(): void {
+      console.log(this.todaysDate);
   }
 
 }

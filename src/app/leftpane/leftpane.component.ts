@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-leftpane',
@@ -6,6 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./leftpane.component.css']
 })
 export class LeftpaneComponent implements OnInit {
+
+  // variable to store value of the tab button clicked
+  tab: string = 'dashboard';
+
+  // Creates an instance of eventemitter and broadcasts to parent component
+  @Output() passTabValue = new EventEmitter<any>();
+
+  // Sends the value of tab variable whenever it changes
+  sendTabValue(value: string):void {
+    this.tab = value;
+    this.passTabValue.emit(this.tab)
+  }
 
   constructor() { }
 

@@ -2,11 +2,11 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-3">
-            <app-leftpane></app-leftpane>
+            <app-leftpane (passTabValue)="sendTabValueFromLeftPane($event)"></app-leftpane>
         </div>
 
-        <div class="col-lg-6">
-            <app-center></app-center>
+        <div class="col-lg-6" style="background-color: #F5F5FB;">
+            <app-center [tabValueFromLeftPane]="tabValueFromLeftPane"></app-center>
         </div>
 
         <div class="col-lg-3">
