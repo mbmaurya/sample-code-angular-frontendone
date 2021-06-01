@@ -1,113 +1,113 @@
 .leftpaneContainer {
-    padding: 4.5rem 1.5rem 1.5rem 4.1875rem; /* 67px, 24px */
-    background-color: #FDFDFE;
+  padding: 1.5rem; /* 24px */
+  background-color: #fdfdfe;
 }
 
 .leftpaneContainer .logo span {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .leftpaneContainer .logo span:last-of-type {
-    padding-left: 1.6875rem; /* 27px*/
-    font-size: 1.6875rem;
-    line-height: 1.6875rem;
-    font-weight: 600; /* semibold */
-    color: #111026;
+  padding-left: 1.6875rem; /* 27px*/
+  font-size: 1.6875rem;
+  line-height: 1.6875rem;
+  font-weight: 600; /* semibold */
+  color: #111026;
 }
 
 .leftpaneContainer .links ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 7.75rem 0rem; /* 124px */
+  list-style-type: none;
+  padding: 0;
+  margin: 5rem 0rem 7rem; /* 80px, 112px */
 }
 
 .leftpaneContainer .links ul li {
-    display: block;
-    margin: 0rem 0rem 3.375rem 0rem; /* 54px */
+  display: block;
+  margin: 0rem 0rem 3.375rem 0rem; /* 54px */
 }
 
 .leftpaneContainer .links ul li span {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .leftpaneContainer .links ul li span svg {
-    fill: #A2A2C2;
+  fill: #a2a2c2;
 }
 
 .leftpaneContainer .links ul li span a {
-    padding-left: 2.625rem; /* 42px */
-    font-size: 1.0625rem; /* 17px */
-    line-height: 1.0625rem;
-    font-weight: 500; /* semibold */
-    color: #A2A2C2;
-    text-decoration: none;
+  padding-left: 2.625rem; /* 42px */
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.0625rem;
+  font-weight: 500; /* semibold */
+  color: #a2a2c2;
+  text-decoration: none;
 }
 
-.leftpaneContainer .links ul li:hover span, 
+.leftpaneContainer .links ul li:hover span,
 .leftpaneContainer .links ul li:hover span a,
 .leftpaneContainer .links ul li.active span a {
-    cursor: pointer;
-    color: #111026
+  cursor: pointer;
+  color: #111026;
 }
 
 .leftpaneContainer .links ul li:hover span svg,
 .leftpaneContainer .links ul li.active span svg {
-    fill: #5E81F4;
+  fill: #5e81f4;
 }
 
 .leftpaneContainer .links ul li span.bar {
-    display: none;
-    width: 3px;
-    height: 23px;
-    background-color: #5E81F4;
-    border-radius: 1.5px;
-    float: right;
-    margin-right: -1.5625rem; /* 25px */
+  display: none;
+  width: 3px;
+  height: 23px;
+  background-color: #5e81f4;
+  border-radius: 1.5px;
+  float: right;
+  margin-right: -1.5625rem; /* 25px */
 }
 
 .leftpaneContainer .links ul li.active span.bar {
-    display: inline-block;
+  display: inline-block;
 }
 
 .leftpaneContainer .cta {
-    background-color: #F5F5FB;
-    padding: 1.875rem; /* 30px */
-    border-radius: 1rem;
-    text-align: center;
+  background-color: #f5f5fb;
+  padding: 1.875rem; /* 30px */
+  border-radius: 1rem;
+  text-align: center;
 }
 
 .leftpaneContainer .cta span img {
-    margin-top: -4.375rem; /* -70px */
+  margin-top: -4.375rem; /* -70px */
 }
 
 .leftpaneContainer .cta p {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding-top: 0.5rem;
-    color: #A2A2C2;
-    font-weight: 400;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 0.5rem;
+  color: #a2a2c2;
+  font-weight: 400;
 }
 
 .leftpaneContainer .cta p span {
-    font-weight: 600;
-    color: #111026;
+  font-weight: 600;
+  color: #111026;
 }
 
 .leftpaneContainer .cta .btn {
-    cursor: pointer;
-    width: 100%;
-    margin-top: 2rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    background-color: #5E81F4;
-    border: none;
-    font-size: 1rem;
-    color: #fff;
-    line-height: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #5e81f4;
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1rem;
 }
 
 .leftpaneContainer .cta .btn:hover {
-    background-color: #5272db;
+  background-color: #5272db;
 }
