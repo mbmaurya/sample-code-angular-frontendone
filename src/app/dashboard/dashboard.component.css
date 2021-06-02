@@ -183,3 +183,76 @@
 .data .time-spent ul.subject li span.text {
   font-size: 13px;
 }
+
+.courses {
+  margin: 2.25rem 0rem; /* 36px */
+}
+
+.courses .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.25rem;
+}
+
+.courses .header span svg {
+  vertical-align: middle;
+}
+
+.courses .header span .title,
+.courses .header span .more {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  color: #111026;
+  font-weight: 500; /* regular */
+}
+
+.courses .body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses .body ul .course-details {
+  padding: 1.5rem; /* 24px */
+  border-radius: 1.25rem; /* 20px */
+}
+
+.courses .body ul .course-details span {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.courses .body .course-details .class {
+  padding: 1rem; /* 16px */
+  font-size: 1rem; /* 16px */
+  color: #fff;
+  background-color: rgb(255 255 255 / 15%);
+  border-radius: 0.5rem;
+}
+
+.courses .body .course-details .class-details {
+  vertical-align: top !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.courses .body .course-details .more-details {
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.courses .body .course-details .class-details .topic {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  color: #fff;
+  font-weight: 500;
+}
+
+.courses .body .course-details .class-details .topic-type {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.3125rem; /* 21px */
+  color: rgb(255 255 255 / 80%);
+}
