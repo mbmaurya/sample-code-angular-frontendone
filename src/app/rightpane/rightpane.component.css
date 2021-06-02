@@ -1,0 +1,61 @@
+.right-pane-container {
+  padding: 1.5rem; /* 24px */
+}
+
+.logout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout .text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.logout .icon {
+  cursor: pointer;
+}
+
+.user-info {
+  text-align: center;
+  padding-top: 3rem; /* 48px */
+}
+
+.user-info .profile-photo {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto; /* 30px */
+}
+
+.user-info .update-photo {
+  position: absolute;
+  bottom: 10%;
+  right: 12%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #5e81f4;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.user-info .name {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.875rem; /* 30px */
+  font-weight: 700; /* bold */
+  color: #111026;
+  text-transform: capitalize;
+  margin-top: 1.8125rem;
+}
+
+.user-info .designation {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  color: #a2a2c2;
+  margin-top: 10px;
+  font-weight: 400; /* regular */
+}
