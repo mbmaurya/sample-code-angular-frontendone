@@ -1,15 +1,16 @@
 /* Resets and fixes various default css applied by the browser */
-@import url('./assets/css/normalize.css');
+@import url("./assets/css/normalize.css");
 
 /* Imports bootstrap grid structure */
-@import url('./assets/css/bootstrap-grid.min.css');
+@import url("./assets/css/bootstrap-grid.min.css");
 
 /* Imports font from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 /* Sets default web apps fonts to Poppins  */
-html, body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 16px;
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
 }

@@ -6,6 +6,10 @@
   text-align: right;
 }
 
+.center-pane-container .header .toggleBtn {
+  float: left;
+}
+
 .center-pane-container .header .date,
 .center-pane-container .header .search {
   display: inline-block;
