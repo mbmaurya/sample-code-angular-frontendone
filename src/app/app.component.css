@@ -15,3 +15,26 @@
   width: 60%;
   background-color: #f5f5fb;
 }
+
+@media screen and (max-width: 1300px) {
+  .flex-container {
+    display: block;
+  }
+
+  .flex-container .centerpane {
+    width: 100% !important;
+  }
+
+  .flex-container .leftpane {
+    position: absolute;
+    /* width: 400px;
+    left: -400px; */
+  }
+
+  .flex-container .rightpane {
+    position: absolute;
+    width: 400px;
+    right: -400px;
+    display: none;
+  }
+}

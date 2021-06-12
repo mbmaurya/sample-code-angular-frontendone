@@ -256,3 +256,25 @@
   line-height: 1.3125rem; /* 21px */
   color: rgb(255 255 255 / 80%);
 }
+
+@media screen and (max-width: 1300px) {
+  .data {
+    display: block;
+  }
+
+  .data .latest-results,
+  .data .time-spent {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .courses .body ul {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .courses .body ul li {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
