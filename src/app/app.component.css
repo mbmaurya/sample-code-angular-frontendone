@@ -27,8 +27,8 @@
 
   .flex-container .leftpane {
     position: absolute;
-    /* width: 400px;
-    left: -400px; */
+    width: 400px;
+    z-index: 1;
   }
 
   .flex-container .rightpane {
@@ -36,5 +36,11 @@
     width: 400px;
     right: -400px;
     display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flex-container .leftpane {
+    width: 80%;
   }
 }

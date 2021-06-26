@@ -3,6 +3,10 @@
   background-color: #fdfdfe;
 }
 
+.leftpaneContainer .close {
+  display: none;
+}
+
 .leftpaneContainer .logo span {
   display: inline-block;
   vertical-align: middle;
@@ -110,4 +114,19 @@
 
 .leftpaneContainer .cta .btn:hover {
   background-color: #5272db;
+}
+
+@media screen and (max-width: 767px) {
+  .leftpaneContainer .close {
+    display: block;
+    position: absolute;
+    right: -23px;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 10px 14px;
+    background-color: #e5e9f9;
+    border-radius: 20px;
+    top: 3px;
+    cursor: pointer;
+  }
 }
