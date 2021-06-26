@@ -8,6 +8,15 @@
 
 .center-pane-container .header .toggleBtn {
   float: left;
+  border: none;
+  background-color: transparent;
+}
+
+.center-pane-container .header .toggleBtn span {
+  display: block;
+  width: 30px;
+  border-top: 2px solid #000;
+  margin-bottom: 5px;
 }
 
 .center-pane-container .header .date,

@@ -1,7 +1,11 @@
 <section class="center-pane-container">
   <section class="header">
     <div *ngIf="displayToggleBtn">
-      <button class="toggleBtn" (click)="toggleNav()">Toggle</button>
+      <button class="toggleBtn" (click)="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
     <div class="date">
       {{ todaysDate | date: "dd MMM yyyy, 'EEEE" }}
