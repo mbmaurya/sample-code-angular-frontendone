@@ -11,7 +11,7 @@
         <app-center [tabValueFromLeftPane]="tabValueFromLeftPane"></app-center>
       </div>
 
-      <div class="rightpane">
+      <div class="rightpane" *ngIf="isRightPaneVisible">
         <app-rightpane></app-rightpane>
       </div>
     </div>
