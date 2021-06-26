@@ -2,6 +2,10 @@
   padding: 1.5rem; /* 24px */
 }
 
+.right-pane-container .close {
+  display: none;
+}
+
 .logout {
   display: flex;
   justify-content: space-between;
@@ -153,4 +157,19 @@
   line-height: 1.5rem;
   font-weight: 400;
   color: #a2a2c2;
+}
+
+@media screen and (max-width: 1200px) {
+  .right-pane-container .close {
+    display: block;
+    position: absolute;
+    left: -23px;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 10px 14px;
+    background-color: #e5e9f9;
+    border-radius: 20px;
+    top: 3px;
+    cursor: pointer;
+  }
 }

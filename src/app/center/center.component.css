@@ -42,6 +42,24 @@
   margin-left: 30px;
 }
 
+.center-pane-container .header .profile {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 16px 18px;
+  background-color: #e5e9f9;
+  border-radius: 10px;
+  color: #7996f5;
+  margin-left: 12px;
+}
+
+.center-pane-container .header .profile button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
 .center-pane-container ul {
   padding: 0;
   margin: 0;

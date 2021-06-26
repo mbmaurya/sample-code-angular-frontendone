@@ -24,14 +24,20 @@ export class AppComponent {
     return this.sidebarsService.displayLeftPane;
   }
 
+  get isRightPaneVisible(): boolean {
+    return this.sidebarsService.displayRightPane;
+  }
+
   constructor(private sidebarsService: SidebarsService) {}
 
   ngOnInit(): void {
     // Display leftpane on desktop
     if (window.screen.width > 1200) {
       this.sidebarsService.displayLeftPane = true;
+      this.sidebarsService.displayRightPane = true;
     } else {
       this.sidebarsService.displayLeftPane = false;
+      this.sidebarsService.displayRightPane = false;
     }
   }
 }

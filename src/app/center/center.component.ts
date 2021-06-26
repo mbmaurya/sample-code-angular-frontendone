@@ -15,8 +15,11 @@ export class CenterComponent implements OnInit {
   // display toggle button when true
   displayToggleBtn: boolean = false;
 
+  displayAccountBtn: boolean = false;
+
   // display the navigation menu when set to true on mobile devices
   displayNav: boolean = false;
+  displayProfile: boolean = false;
 
   // get's today's date
   todaysDate: Date = new Date();
@@ -25,15 +28,20 @@ export class CenterComponent implements OnInit {
   checkScreenWidth() {
     if (window.screen.width <= 1200) {
       this.displayToggleBtn = true;
+      this.displayAccountBtn = true;
     } else if (window.screen.width > 1200) {
       this.displayToggleBtn = false;
+      this.displayAccountBtn = false;
     }
   }
 
   // toggles navigation menu on left pane
   toggleNav() {
     this.displayNav = this.sidebarsService.toggleLeftPane();
-    console.log(this.displayNav);
+  }
+
+  toggleProfile() {
+    this.displayProfile = this.sidebarsService.toggleRightPane();
   }
 
   constructor(private sidebarsService: SidebarsService) {}

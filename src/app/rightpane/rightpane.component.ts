@@ -9,5 +9,9 @@ import { SidebarsService } from '../services/sidebars.service';
 export class RightpaneComponent implements OnInit {
   constructor(private sidebarsService: SidebarsService) {}
 
+  functionRightPane() {
+    this.sidebarsService.displayRightPane = false;
+  }
+
   ngOnInit(): void {}
 }
