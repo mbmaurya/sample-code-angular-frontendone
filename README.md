@@ -1,27 +1,51 @@
-# Dashboard
+# Development
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
+Start server: ng serve --open
 
-## Development server
+# Folder Structure
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+App
+--Center
+--Dashboard
+--LeftPane
+--RightPane
+--Services
 
-## Code scaffolding
+# App Hierarchy
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+App
+--LeftPane
+--Center
+--Dashboard
+--RightPane
 
-## Build
+# Important Elements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## LeftPane
 
-## Running unit tests
+Logo
+Tabs/Links
+CTA
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Center
 
-## Running end-to-end tests
+Header
+--Date
+--Search
+Dashboard
+--Welcome panel
+--Results
+--Analytics
+--Courses
+Classes
+Resources
+Plan
+Chat
+Settings
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## RightPane
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Logout
+Profile
+Subjects
+Reminders

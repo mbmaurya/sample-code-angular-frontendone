@@ -20,26 +20,26 @@
   color: #111026;
 }
 
-.leftpaneContainer .links ul {
+.leftpaneContainer .tabs ul {
   list-style-type: none;
   padding: 0;
   margin: 5rem 0rem 7rem; /* 80px, 112px */
 }
 
-.leftpaneContainer .links ul li {
+.leftpaneContainer .tabs ul li {
   display: block;
   margin: 0rem 0rem 3.375rem 0rem; /* 54px */
 }
 
-.leftpaneContainer .links ul li span {
+.leftpaneContainer .tabs ul li span {
   vertical-align: middle;
 }
 
-.leftpaneContainer .links ul li span svg {
+.leftpaneContainer .tabs ul li span svg {
   fill: #a2a2c2;
 }
 
-.leftpaneContainer .links ul li span a {
+.leftpaneContainer .tabs ul li span a {
   padding-left: 2.625rem; /* 42px */
   font-size: 1.0625rem; /* 17px */
   line-height: 1.0625rem;
@@ -48,19 +48,19 @@
   text-decoration: none;
 }
 
-.leftpaneContainer .links ul li:hover span,
-.leftpaneContainer .links ul li:hover span a,
-.leftpaneContainer .links ul li.active span a {
+.leftpaneContainer .tabs ul li:hover span,
+.leftpaneContainer .tabs ul li:hover span a,
+.leftpaneContainer .tabs ul li.active span a {
   cursor: pointer;
   color: #111026;
 }
 
-.leftpaneContainer .links ul li:hover span svg,
-.leftpaneContainer .links ul li.active span svg {
+.leftpaneContainer .tabs ul li:hover span svg,
+.leftpaneContainer .tabs ul li.active span svg {
   fill: #5e81f4;
 }
 
-.leftpaneContainer .links ul li span.bar {
+.leftpaneContainer .tabs ul li span.bar {
   display: none;
   width: 3px;
   height: 23px;
@@ -70,7 +70,7 @@
   margin-right: -1.5625rem; /* 25px */
 }
 
-.leftpaneContainer .links ul li.active span.bar {
+.leftpaneContainer .tabs ul li.active span.bar {
   display: inline-block;
 }
 
