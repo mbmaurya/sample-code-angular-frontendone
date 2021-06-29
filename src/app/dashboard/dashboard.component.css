@@ -61,6 +61,11 @@
   color: #111026;
 }
 
+.data .latest-results .header span.more,
+.data .time-spent .header span.more {
+  cursor: pointer;
+}
+
 .data .latest-results .header span.more svg {
   vertical-align: middle;
 }

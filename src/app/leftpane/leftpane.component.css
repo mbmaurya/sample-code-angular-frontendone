@@ -29,6 +29,7 @@
 .leftpaneContainer .tabs ul li {
   display: block;
   margin: 0rem 0rem 3.375rem 0rem; /* 54px */
+  cursor: pointer;
 }
 
 .leftpaneContainer .tabs ul li span {
