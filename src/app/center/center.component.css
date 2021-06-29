@@ -7,9 +7,11 @@
 }
 
 .center-pane-container .header .toggleBtn {
-  float: left;
   border: none;
+  position: absolute;
   background-color: transparent;
+  left: 15px;
+  top: 42px;
 }
 
 .center-pane-container .header .toggleBtn span {
